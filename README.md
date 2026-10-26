@@ -1,5 +1,22 @@
 # Lab-Exercise---3---Hill-Cipher
-Aim
-Procedure
-Output
-Result
+# Aim
+To develop a simple C program to implement Hill
+# Procedure
+1. Design of Hill Cipher 
+2. Implementation using C or python code 
+3. Testing algorithm with different key values. ALGORITHM DESCRIPTION: The Hill cipher is a 
+substitution cipher invented by Lester S. Hill in 1929. Each letter is represented by a 
+number modulo 26.
+4. To encrypt a message, each block of n letters is multiplied by an invertible n × n 
+matrix, again modulus 26.
+5. To decrypt the message, each block is multiplied by the inverse of the 
+matrix used for encryption.
+6. The matrix used for encryption is the cipher key, and it should be 
+chosen randomly from the set of invertible n × n matrices (modulo 26).
+7. The cipher can, be adapted to an alphabet with any number of letters.
+8. All arithmetic just needs to be done modulo the number of letters instead of modulo.
+# Output
+<img width="1506" height="681" alt="Screenshot 2026-10-26 102822" src="https://github.com/user-attachments/assets/02c6361c-ff28-4b09-a559-11930d2890e1" />
+
+# Result
+The program is executed successfully.
